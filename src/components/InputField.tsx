@@ -1,10 +1,11 @@
 import React from 'react'
+import "./styles.css"
 
 function InputField() {
   return (
-    <form className = "form">
-        <input type="text"/>
-        <button>Go</button>
+    <form>
+        <input className = "inputBox" type="text"/>
+        <button className = "goButton">Go</button>
     </form>
   )
 }
