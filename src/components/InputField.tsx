@@ -2,7 +2,10 @@ import React from 'react'
 
 function InputField() {
   return (
-    <div>Input</div>
+    <form className = "form">
+        <input type="text"/>
+        <button>Go</button>
+    </form>
   )
 }
 
