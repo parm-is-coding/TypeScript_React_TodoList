@@ -3,7 +3,7 @@ import "./styles.css"
 
 function InputField() {
   return (
-    <form>
+    <form className = "input">
         <input className = "inputBox" type="text"/>
         <button className = "goButton">Go</button>
     </form>
